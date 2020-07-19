@@ -204,11 +204,6 @@ RecyclerView.Adapter<AdapterLatest.MyViewHolder>() {
 
     override fun getItemCount() = currenciesArray.size
 
-    private val initialTextSize: Float by lazy {
-        20f
-    }
-
-
 }
 
 
