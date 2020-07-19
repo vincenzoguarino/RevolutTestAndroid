@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">revolutTestVincenzoGuarino</string>
+
+    <!-- Currencies -->
+    <string name="currency_aud_name">Australian Dollar</string>
+    <string name="currency_bgn_name">Bulgarian Lev</string>
+    <string name="currency_brl_name">Brazilian Real</string>
+    <string name="currency_cad_name">Canadian Dollar</string>
+    <string name="currency_chf_name">Swiss Franc</string>
+    <string name="currency_cny_name">Chinese Yuan</string>
+    <string name="currency_czk_name">Czech Koruna</string>
+    <string name="currency_dkk_name">Danish Krone</string>
+    <string name="currency_eur_name">Euro</string>
+    <string name="currency_gbp_name">British Pound</string>
+    <string name="currency_hkd_name">Hong Kong Dollar</string>
+    <string name="currency_hrk_name">Croatian Kuna</string>
+    <string name="currency_huf_name">Hungarian Forint</string>
+    <string name="currency_idr_name">Indonesian Rupiah</string>
+    <string name="currency_ils_name">Israeli New Shekel</string>
+    <string name="currency_inr_name">Indian Rupee</string>
+    <string name="currency_isk_name">Icelandic Króna</string>
+    <string name="currency_jpy_name">Japanese Yen</string>
+    <string name="currency_krw_name">South Korean Won</string>
+    <string name="currency_mxn_name">Mexican Peso</string>
+    <string name="currency_myr_name">Malaysian Ringgit</string>
+    <string name="currency_nok_name">Norwegian Krone</string>
+    <string name="currency_nzd_name">New Zealand Dollar</string>
+    <string name="currency_php_name">Philippine Piso</string>
+    <string name="currency_pln_name">Polish Złoty</string>
+    <string name="currency_ron_name">Romanian Leu</string>
+    <string name="currency_rub_name">Russian Ruble</string>
+    <string name="currency_sek_name">Swedish Krona</string>
+    <string name="currency_sgd_name">Singapore Dollar</string>
+    <string name="currency_thb_name">Thai Baht</string>
+    <string name="currency_try_name">Turkish lira</string>
+    <string name="currency_usd_name">United States Dollar</string>
+    <string name="currency_zar_name">South African Rand</string>
+
+
+    <!-- Currencies Code-->
+    <string name="currency_aud_code">AUD</string>
+    <string name="currency_bgn_code">BGN</string>
+    <string name="currency_brl_code">BRL</string>
+    <string name="currency_cad_code">CAD</string>
+    <string name="currency_chf_code">CHF</string>
+    <string name="currency_cny_code">CNY</string>
+    <string name="currency_czk_code">CZK</string>
+    <string name="currency_dkk_code">DKK</string>
+    <string name="currency_eur_code">EUR</string>
+    <string name="currency_gbp_code">GBP</string>
+    <string name="currency_hkd_code">HKD</string>
+    <string name="currency_hrk_code">HRN</string>
+    <string name="currency_huf_code">HUF</string>
+    <string name="currency_idr_code">IDR</string>
+    <string name="currency_ils_code">ILS</string>
+    <string name="currency_inr_code">INR</string>
+    <string name="currency_isk_code">ISK</string>
+    <string name="currency_jpy_code">JPY</string>
+    <string name="currency_krw_code">KRW</string>
+    <string name="currency_mxn_code">MXN</string>
+    <string name="currency_myr_code">MYR</string>
+    <string name="currency_nok_code">NOK</string>
+    <string name="currency_nzd_code">NZD</string>
+    <string name="currency_php_code">PHP</string>
+    <string name="currency_pln_code">PLN</string>
+    <string name="currency_ron_code">RON</string>
+    <string name="currency_rub_code">RUB</string>
+    <string name="currency_sek_code">SEK</string>
+    <string name="currency_sgd_code">SGD</string>
+    <string name="currency_thb_code">THB</string>
+    <string name="currency_try_code">TRY</string>
+    <string name="currency_usd_code">USD</string>
+    <string name="currency_zar_code">ZAR</string>
+
+</resources>

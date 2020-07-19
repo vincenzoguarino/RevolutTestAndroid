@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:id="@+id/currencyFlag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/currencySymbol"
+        android:layout_alignBottom="@id/currencyName"
+        android:layout_marginStart="16dp"
+        android:src="@mipmap/ic_aud_flag" />
+
+    <TextView
+        android:id="@+id/currencySymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toRightOf="@id/currencyFlag"
+        android:fontFamily="@font/roboto"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/currency_aud_code"
+        android:textColor="@color/black_currency_symbol"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/currencyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currencySymbol"
+        android:layout_marginStart="16dp"
+        android:layout_toRightOf="@id/currencyFlag"
+        android:fontFamily="@font/roboto"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/currency_aud_name"
+        android:textColor="@color/grey_currency_name"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/currencyAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:lineSpacingExtra="5sp"
+        android:textAlignment="textEnd"
+        android:textSize="20sp" />
+
+</RelativeLayout>

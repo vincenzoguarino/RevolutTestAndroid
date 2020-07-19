@@ -1,0 +1,8 @@
+<resources>
+    <array name="auto_size_text_sizes">
+        <item>12sp</item>
+        <item>20sp</item>
+        <item>48sp</item>
+        <item>100sp</item>
+    </array>
+</resources>

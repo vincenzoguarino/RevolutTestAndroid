@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b721ff</color>
+    <color name="colorPrimaryDark">#8B959E</color>
+    <color name="colorAccent">#21d4fd</color>
+
+    //colorsCurrencyCellExchange
+    <color name="black_currency_symbol">#191C1F</color>
+    <color name="grey_currency_name">#8B959E</color>
+</resources>
