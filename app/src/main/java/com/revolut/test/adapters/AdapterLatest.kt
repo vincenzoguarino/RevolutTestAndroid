@@ -33,6 +33,8 @@ RecyclerView.Adapter<AdapterLatest.MyViewHolder>() {
     private val dfnd: DecimalFormat = DecimalFormat("#,###")
     private var hasFractionalPart: Boolean = false
 
+    var listenerScroolToTop: (()->Unit)? = null
+
     class MyViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
         RecyclerView.ViewHolder(inflater.inflate(R.layout.row_line_latest, parent, false)){
     }
@@ -128,6 +130,8 @@ RecyclerView.Adapter<AdapterLatest.MyViewHolder>() {
         currenciesArray.add(0, item);
 
         notifyDataSetChanged()
+
+        listenerScroolToTop?.invoke()
     }
 
     private fun textListenerCurrencyAmount(et: EditText){

@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
 
         initView()
         apiLatest()
+
+        adapter?.listenerScroolToTop = {
+
+            recyclerLatest.smoothScrollToPosition(0)
+
+        }
     }
 
     private fun initView() {
@@ -57,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                     adapter?.notifyDataSetChanged()
 
               }
-                }
+               }
 
                 adapter?.updateCurrenciesRatesLive(
                     revolutCurrenciesModel.createCurrenciesModelArray(
